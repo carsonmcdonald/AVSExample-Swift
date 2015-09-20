@@ -24,16 +24,6 @@
 		B6EFD2871BA5BAB9009154C4 /* SimplePCMRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6EFD2861BA5BAB9009154C4 /* SimplePCMRecorder.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		B6017A831BA46E4E006DABB5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B6017A681BA46E4E006DABB5 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B6017A6F1BA46E4E006DABB5;
-			remoteInfo = AVSExample;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		B6798B361BAA411B0020B47A /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -55,7 +45,6 @@
 		B6017A771BA46E4E006DABB5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B6017A791BA46E4E006DABB5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B6017A7C1BA46E4E006DABB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B6017A821BA46E4E006DABB5 /* AVSExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AVSExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6798B251BA9C6DB0020B47A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		B6798B271BA9C9D10020B47A /* AVSUploader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AVSUploader.swift; sourceTree = "<group>"; };
 		B6798B291BA9E7BF0020B47A /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
@@ -81,13 +70,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B6017A7F1BA46E4E006DABB5 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -104,7 +86,6 @@
 			isa = PBXGroup;
 			children = (
 				B6017A701BA46E4E006DABB5 /* AVSExample.app */,
-				B6017A821BA46E4E006DABB5 /* AVSExampleTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -167,24 +148,6 @@
 			productReference = B6017A701BA46E4E006DABB5 /* AVSExample.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B6017A811BA46E4E006DABB5 /* AVSExampleTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B6017A8F1BA46E4E006DABB5 /* Build configuration list for PBXNativeTarget "AVSExampleTests" */;
-			buildPhases = (
-				B6017A7E1BA46E4E006DABB5 /* Sources */,
-				B6017A7F1BA46E4E006DABB5 /* Frameworks */,
-				B6017A801BA46E4E006DABB5 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B6017A841BA46E4E006DABB5 /* PBXTargetDependency */,
-			);
-			name = AVSExampleTests;
-			productName = AVSExampleTests;
-			productReference = B6017A821BA46E4E006DABB5 /* AVSExampleTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -197,10 +160,6 @@
 				TargetAttributes = {
 					B6017A6F1BA46E4E006DABB5 = {
 						CreatedOnToolsVersion = 6.4;
-					};
-					B6017A811BA46E4E006DABB5 = {
-						CreatedOnToolsVersion = 6.4;
-						TestTargetID = B6017A6F1BA46E4E006DABB5;
 					};
 				};
 			};
@@ -218,7 +177,6 @@
 			projectRoot = "";
 			targets = (
 				B6017A6F1BA46E4E006DABB5 /* AVSExample */,
-				B6017A811BA46E4E006DABB5 /* AVSExampleTests */,
 			);
 		};
 /* End PBXProject section */
@@ -231,13 +189,6 @@
 				B6017A7A1BA46E4E006DABB5 /* Images.xcassets in Resources */,
 				B6017A7D1BA46E4E006DABB5 /* Main.storyboard in Resources */,
 				B6798B3A1BAA4B200020B47A /* login.html in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B6017A801BA46E4E006DABB5 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,22 +208,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B6017A7E1BA46E4E006DABB5 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		B6017A841BA46E4E006DABB5 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B6017A6F1BA46E4E006DABB5 /* AVSExample */;
-			targetProxy = B6017A831BA46E4E006DABB5 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		B6017A7B1BA46E4E006DABB5 /* Main.storyboard */ = {
@@ -401,44 +337,6 @@
 			};
 			name = Release;
 		};
-		B6017A901BA46E4E006DABB5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = AVSExampleTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "net.ioncannon.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AVSExample.app/Contents/MacOS/AVSExample";
-			};
-			name = Debug;
-		};
-		B6017A911BA46E4E006DABB5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = AVSExampleTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "net.ioncannon.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AVSExample.app/Contents/MacOS/AVSExample";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -456,15 +354,6 @@
 			buildConfigurations = (
 				B6017A8D1BA46E4E006DABB5 /* Debug */,
 				B6017A8E1BA46E4E006DABB5 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B6017A8F1BA46E4E006DABB5 /* Build configuration list for PBXNativeTarget "AVSExampleTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B6017A901BA46E4E006DABB5 /* Debug */,
-				B6017A911BA46E4E006DABB5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
